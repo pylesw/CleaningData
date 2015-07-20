@@ -26,30 +26,30 @@ TidyDataSet02.txt
 Here is the definition of the variables used in the output files
 listed above and the source of where that data came from:
 
-  Variable             ==>    Source (./test and ./train)
-  ---------------------------------------------------------------
-  Subject              ==>   ./subject_*.txt
-  Activity             ==>   ./y_*.txt and ../activity_labels.txt
-  X(Avg)               ==>   ./X_*.txt
-  X(StdDev)            ==>   ./X_*.txt
-  body_acc_x(Avg)      ==>   ./Inertial Signals/body_acc_x_*.txt
-  body_acc_x(StdDev)   ==>   ./Inertial Signals/body_acc_x_*.txt
-  body_acc_y(Avg)      ==>   ./Inertial Signals/body_acc_y_*.txt
-  body_acc_y(StdDev)   ==>   ./Inertial Signals/body_acc_y_*.txt
-  body_acc_z(Avg)      ==>   ./Inertial Signals/body_acc_z_*.txt
-  body_acc_z(StdDev)   ==>   ./Inertial Signals/body_acc_z_*.txt
-  body_gyro_x(Avg)     ==>   ./Inertial Signals/body_gyro_x_*.txt
-  body_gyro_x(StdDev)  ==>   ./Inertial Signals/body_gyro_x_*.txt
-  body_gyro_y(Avg)     ==>   ./Inertial Signals/body_gyro_y_*.txt
-  body_gyro_y(StdDev)  ==>   ./Inertial Signals/body_gyro_y_*.txt
-  body_gyro_z(Avg)     ==>   ./Inertial Signals/body_gyro_z_*.txt
-  body_gyro_z(StdDev)  ==>   ./Inertial Signals/body_gyro_z_*.txt
-  total_acc_x(Avg)     ==>   ./Inertial Signals/total_acc_x_*.txt
-  total_acc_x(StdDev)  ==>   ./Inertial Signals/total_acc_x_*.txt
-  total_acc_y(Avg)     ==>   ./Inertial Signals/total_acc_y_*.txt
-  total_acc_y(StdDev)  ==>   ./Inertial Signals/total_acc_y_*.txt
-  total_acc_z(Avg)     ==>   ./Inertial Signals/total_acc_z_*.txt
-  total_acc_z(StdDev)  ==>   ./Inertial Signals/total_acc_z_*.txt
+  Variable | Source (./test and ./train)
+  ---------|----------------------------
+  Subject | ./subject_\*.txt
+  Activity | ./y_\*.txt and ../activity_labels.txt
+  X(Avg) | ./X_\*.txt
+  X(StdDev) | ./X_\*.txt
+  body_acc_x(Avg) | ./Inertial Signals/body_acc_x_*.txt
+  body_acc_x(StdDev) | ./Inertial Signals/body_acc_x_*.txt
+  body_acc_y(Avg) | ./Inertial Signals/body_acc_y_*.txt
+  body_acc_y(StdDev) | ./Inertial Signals/body_acc_y_*.txt
+  body_acc_z(Avg) | ./Inertial Signals/body_acc_z_*.txt
+  body_acc_z(StdDev) | ./Inertial Signals/body_acc_z_*.txt
+  body_gyro_x(Avg) | ./Inertial Signals/body_gyro_x_*.txt
+  body_gyro_x(StdDev) | ./Inertial Signals/body_gyro_x_*.txt
+  body_gyro_y(Avg) | ./Inertial Signals/body_gyro_y_*.txt
+  body_gyro_y(StdDev) | ./Inertial Signals/body_gyro_y_*.txt
+  body_gyro_z(Avg) | ./Inertial Signals/body_gyro_z_*.txt
+  body_gyro_z(StdDev) | ./Inertial Signals/body_gyro_z_*.txt
+  total_acc_x(Avg) | ./Inertial Signals/total_acc_x_*.txt
+  total_acc_x(StdDev) | ./Inertial Signals/total_acc_x_*.txt
+  total_acc_y(Avg) | ./Inertial Signals/total_acc_y_*.txt
+  total_acc_y(StdDev) | ./Inertial Signals/total_acc_y_*.txt
+  total_acc_z(Avg) | ./Inertial Signals/total_acc_z_*.txt
+  total_acc_z(StdDev) | ./Inertial Signals/total_acc_z_*.txt
 
 (NOTE: * refers to either test or train in the filename)
   
