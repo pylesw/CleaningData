@@ -26,7 +26,7 @@ TidyDataSet02.txt
 Here is the definition of the variables used in the output files
 listed above and the source of where that data came from:
 
-  Variable             ==>    Source (./test and ./train)\n
+  Variable             ==>    Source (./test and ./train)
   ---------------------------------------------------------------
   Subject              ==>   ./subject_*.txt
   Activity             ==>   ./y_*.txt and ../activity_labels.txt
